@@ -34,7 +34,11 @@ Continue working with the samples.json dataset, and complete the following tasks
  - Use sample_values as the values for the bar chart.
  - Use otu_ids as the labels for the bar chart.
  - Use otu_labels as the hover text for the chart.  
- 
+
+An example plot is shown below for the ID 941 (ETHNICITY: Caucasian/Midleastern) based on the javascript we wrote
+
+![](Fig1.png)
+
 **In the Demographics Info panel,** display all the key-value pairs of the selected individual’s demographic data.  
 
 **Create a bubble chart that displays each sample:**  
@@ -44,8 +48,14 @@ Use sample_values for the marker size.
 Use otu_ids for the marker colors.  
 Use otu_labels for the text values.
 
+After we selected the code ID 941, we obtained the bubble chart for the selected family as indicated in the figure below.
+![](Fig2.png)
 
 #### Extension
 **Adapt the gauge chart from Plotly documentation to plot the weekly washing frequency of the individual.**  
 - Modify the example gauge code to account for values ranging from 0 through 9.  
-- Update the chart whenever a new sample is selected.  
+- Update the chart whenever a new sample is selected. 
+
+The guage charge for the weekly washing frequency of the selected individual is displayed below:
+ 
+![](Fig3.png)
